@@ -1,0 +1,2293 @@
+/**
+ * VictorThemes Styling
+ *
+*/
+
+/* Roof Responsive CSS */
+@media screen and (min-width:1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+@media screen and (max-width:1199px) {
+	/* Roof Normal CSS */
+	blockquote {
+		padding: 70px 30px 30px;
+		background-position: 50% 30px;
+	}
+	.contact-item {
+		padding-left: 20px;
+		margin-left: 20px;
+	}
+	.contact-item .contact-info p {
+		font-size: 13px;
+	}
+	.contact-item .contact-info span {
+		font-size: 12px;
+	}
+	.roof-masonry .masonry-item.one-fourth {
+		width: 50%;
+	}
+	.masonry-item-five .masonry-item {
+		width: 25%;
+	}
+	.roof-secondary {
+		padding-right: 15px;
+	}
+	.sidebar-right .roof-secondary {
+		padding-left: 15px;
+	}
+	.widget-sidebar-nav ul > li > a {
+		padding: 15px 20px;
+	}
+	.widget-question-wrap {
+		padding: 25px;
+	}
+	.widget-download-brochures .roof-btn {
+		padding: 19px 15px 18px;
+		font-size: 11px;
+	}
+	.widget-download-brochures .roof-btn .fa {
+		margin-right: 0;
+	}
+	.about-detail .about-info {
+		padding: 20px 30px;
+	}
+	.about-detail .about-info p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.about-detail .about-info h3 {
+		margin-bottom: 5px;
+		font-size: 18px;
+	}
+	.about-info .roof-btn {
+		margin-top: 5px;
+	}
+	/* Roof Home V1 Page CSS */
+	.expert-item {
+		min-height: 405px;
+	}
+	/* Roof Home V2 Page CSS */
+	.header-style-three .roof-logo, .header-style-three .header-right {
+		width: auto;
+	}
+	.roof-consult.consult-style-two .roof-btn {
+		margin-right: 0;
+	}
+	.testimonial-style-two .roof-carousel {
+		margin: 0 -15px;
+	}
+	.testimonial-style-two .owl-item {
+		padding: 0 15px;
+	}
+	.testimonial-style-two .owl-drag .owl-nav {
+		right: 20px;
+	}
+	/* Roof Home V3 Page CSS */
+	.swiper-container.swiper-style-three {
+		height: 600px;
+	}
+	.swiper-style-three .cpation-wrap p {
+		font-size: 16px;
+	}
+	.swiper-style-three .cpation-wrap .cpation-title, .swiper-style-three .roof-slide-cpation.center .cpation-wrap .cpation-title {
+		font-size: 40px;
+		line-height: 45px;
+	}
+	.swiper-style-three .cpation-wrap .cpation-sub-title {
+		font-size: 20px;
+	}
+	.about-wrap {
+		display: block;
+	}
+	.about-wrap > .roof-picture {
+		display: inline-block;
+		width: auto;
+	}
+	.about-wrap > .roof-picture > img {
+		width: auto;
+	}
+	.about-info {
+		display: block;
+		width: auto;
+		padding: 30px 0 0;
+	}
+	.about-one .about-info {
+    padding: 30px 25px;
+	}
+	.emergency-wrap h3, .emergency-number h3 {
+		font-size: 18px;
+	}
+	.emergency-wrap h5 {
+		font-size: 15px;
+	}
+	.emergency-number {
+		padding-left: 0;
+	}
+	/* Roof Home V4 Page CSS */
+	.services-wrap {
+		padding: 30px;
+		margin: -50px -30px 0;
+	}
+	.services-style-five {
+		text-align: center;
+	}
+	.services-style-five .roof-picture {
+		float: none;
+	}
+	.services-style-five .service-info {
+		clear: both;
+		padding: 15px 0 0;
+	}
+	.services-style-five .service-title {
+		margin-bottom: 0;
+	}
+	.quote-spacer-two .quote-wrap {
+		padding: 100px 0;
+	}
+	/* Roof Certifications Page CSS */
+	.roof-primary .roof-certifications .certification-item {
+		min-height: 225px;
+		margin-bottom: 30px;
+	}
+	/* Roof History Page CSS */
+	.about-detail.about-style-two .about-info h3 {
+		margin-bottom: 5px;
+		font-size: 18px;
+		line-height: 30px;
+	}
+	/* Roof Pricing Page CSS */
+	.plan-info {
+		padding: 30px 25px 40px;
+	}
+	/* Roof Services Page CSS */
+	.roof-primary .service-item {
+		text-align: center;
+	}
+	/* Roof Project Fullwith Page CSS */
+	.masonry-fullwidth .masonry-item {
+		width: 33.33333333%;
+	}
+	.roof-masonry.bpw-col-5 .masonry-item {
+    width: 25%;
+	}
+
+	/* Roof Projects Single Page CSS */
+	.work-detail .row {
+		margin: 0 -15px;
+	}
+	.work-detail [class*="col-"] {
+		padding: 0 15px;
+	}
+	.work-info-item {
+		display: block;
+		width: 100%;
+		padding: 0 0 20px;
+	}
+	.work-detail-wrap {
+		padding: 35px 35px 15px;
+	}
+	/* Roof Blog Single Page CSS */
+	.roof-comments-area {
+		padding-left: 0;
+	}
+	.roof-blog-detail .roof-container {
+    width: 100%;
+	}
+	/* Roof Entry Content Page CSS */
+  .entry-content .comment-list .children {
+    padding-left: 20px;
+  }
+  /* Shop Page */
+  .woocommerce ul.products {
+    text-align: center;
+	}
+	/* Roof Product Details Page CSS */
+	.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+		padding: 0 0 0 30px;
+	}
+	.woocommerce div.product p.price, .woocommerce div.product span.price {
+		margin-bottom: 10px;
+	}
+	.woocommerce div.product form.cart, .woocommerce div.product p.cart {
+		padding: 10px 0 20px;
+	}
+	.woocommerce .related.products {
+		padding-top: 50px;
+	}
+	.woocommerce #reviews #comments ol.commentlist {
+		padding-bottom: 10px;
+	}
+	/* Roof My Account Page CSS */
+	.roof-forms .row {
+		margin: 0 -15px;
+	}
+	.roof-forms [class*="col-"] {
+		padding: 0 15px;
+	}
+	/* Roof Estimation Calculator Page CSS */
+	.estimation-title {
+		padding: 20px 25px;
+		font-size: 12px;
+	}
+	/* Shop Page */
+	.woocommerce.woo-col-3 ul.products li.product.last, .woocommerce-page.woo-col-3 ul.products li.product.last, .woocommerce.woo-col-3 ul.products li.product:nth-child(3n), .woocommerce-page.woo-col-3 ul.products li.product:nth-child(3n){
+		margin-right: 3%;
+	}
+	.woocommerce.woo-col-3 ul.products li.product, .woocommerce-page ul.products li.product{
+		width: 280px;
+	}
+/*	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+		width: 40%;
+		margin: 0 10% 50px 0;
+	}
+	.woocommerce ul.products li.product:nth-child(even), .woocommerce-page ul.products li.product:nth-child(even){
+		margin-right: 0;
+	}
+	.woocommerce ul.products li.product:nth-child(odd), .woocommerce-page ul.products li.product:nth-child(odd) {
+    margin-right: 9%;
+	}
+	.woocommerce.woo-col-3 ul.products li.product.last, .woocommerce-page.woo-col-3 ul.products li.product.last, .woocommerce.woo-col-3 ul.products li.product:nth-child(3n), .woocommerce-page.woo-col-3 ul.products li.product:nth-child(3n){
+		margin-right: 9%;
+	}
+	.woocommerce .roof-primary {
+    margin-bottom: 100px;
+	}*/
+}
+
+@media screen and (max-width:1050px) {
+	/* Roof Home V4 Page CSS */
+	.roof-services.services-style-four {
+		padding: 70px 0 50px;
+	}
+	.services-wrap {
+		padding: 0;
+		margin: 50px 0 0;
+		background: none;
+	}
+}
+@media screen and (max-width:992px) {
+	.woocommerce .roof-primary {
+    padding-left: 30px;
+	}
+	.expert-item.first {
+		padding: 58px 20px 50px 20px;
+	}
+	.roof-page-title {
+    display: inline-block;
+    width: 100%;
+	}
+}
+@media screen and (max-width:991px) {
+	/* Roof Normal CSS */
+	.roof-testimonial .roof-container{
+		width: 100%;
+	}
+	.expert-item.first {
+    padding: 35px 10px 50px 0px;
+	}
+	.cpation-wrap {
+		width: 100%;
+		padding: 30px;
+		text-align: center;
+	}
+	.cpation-wrap .cpation-title {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.cpation-wrap .roof-btn {
+		margin: 11px 6px 0;
+	}
+	.roof-consult {
+		padding: 30px 0;
+		text-align: center;
+	}
+	.roof-consult .pull-left {
+		width: 100%;
+		padding: 0 0 20px;
+	}
+	.roof-consult .pull-right {
+		width: 100%;
+	}
+	.roof-consult .roof-btn {
+		padding: 15px 30px;
+	}
+	.roof-consult .roof-btn:before {
+		display: none;
+	}
+	.consult-style-two .roof-btn {
+		margin-right: 0;
+	}
+	.roof-masonry .masonry-item.one-fourth, .roof-masonry .masonry-item.one-half {
+		width: 66.66666667%;
+	}
+	.masonry-item, .masonry-item-five .masonry-item {
+		width: 33.33333333%;
+	}
+	.roof-primary, .sidebar-right .roof-primary {
+		float: none;
+	}
+	.roof-primary .roof-partners {
+		padding-top: 20px;
+	}
+	.roof-secondary {
+		padding-top: 50px;
+	}
+	.woocommerce .sidebar-right .roof-secondary {
+		padding: 50px 15px 0;
+	}
+	.roof-footer [class*="col-"] {
+		min-height: 280px;
+	}
+	.roof-footer .first-column {
+		width: auto;
+	}
+	.roof-copyright {
+		padding: 35px 0 20px;
+		text-align: center;
+	}
+	.roof-copyright ul {
+		float: none;
+	}
+	.roof-copyright ul li {
+		float: none;
+		display: inline-block;
+		vertical-align: middle;
+		padding: 0 12px 10px;
+	}
+	/* Header */
+	.roof-header .contact-details{
+  	display: none;
+	}
+	.roof-logo.dhve-mobile-logo.dhav-transparent-logo {
+    text-align: center;
+    float: none;
+	}
+	/* Roof Home V2 Page CSS */
+	.header-style-three .header-right {
+		text-align: left;
+	}
+	.roof-header.header-style-three .roof-toggle span, .roof-header.header-style-three .roof-toggle span:before, .roof-header.header-style-three .roof-toggle span:after {
+		background: #ffffff;
+	}
+	.roof-header.header-style-three .roof-toggle.active span {
+		background: none;
+	}
+	.header-style-three .header-right .roof-social {
+		float: none;
+		padding-top: 20px;
+	}
+	.roof-consult.consult-style-two {
+		padding: 50px 0;
+	}
+	.roof-consult.consult-style-two .pull-left, .roof-consult.consult-style-three .pull-left {
+		padding-top: 0;
+	}
+	.roof-locations {
+		text-align: center;
+	}
+	.roof-locations .roof-icon {
+		display: inline-block;
+	}
+	.roof-consult.consult-style-three .roof-btn {
+		padding: 25px 50px;
+	}
+	.progressbar-item:nth-child(2n) {
+		border-right: none;
+	}
+	/* Roof Home V3 Page CSS */
+	.roof-menu.menu-spacer-two {
+		padding: 0 25px;
+	}
+	.swiper-style-three .cpation-wrap, .roof-slide-cpation.center .cpation-wrap {
+		width: 100%;
+	}
+	.about-wrap {
+		padding-bottom: 50px;
+	}
+	.roof-emergency {
+		margin-top: 0;
+	}
+	.roof-emergency .container {
+		padding: 35px 20px 35px 200px;
+	}
+	.emergency-wrap {
+		padding: 0 0 10px 0;
+	}
+	/* Roof Home V4 Page CSS */
+	.certifications-style-three .certification-item {
+		min-height: 220px;
+	}
+	.roof-questions {
+		padding-left: 0;
+	}
+	/* Roof Careers Page CSS */
+	.roof-open-positions {
+		padding-top: 30px;
+	}
+	.roof-open-positions table {
+		margin-bottom: 0;
+	}
+	/* Roof Projects Grid Page CSS */
+	.masonry-item-three .masonry-item {
+		width: 50%;
+	}
+	/* Roof Project Fullwith Page CSS */
+	.masonry-fullwidth .masonry-item,
+	.roof-masonry.bpw-col-3 .masonry-item,
+	.roof-masonry.bpw-col-4 .masonry-item,
+	.roof-masonry.bpw-col-5 .masonry-item {
+		width: 50%;
+	}
+
+	/* Roof Projects Single Page CSS */
+	.work-detail .roof-questions {
+		padding-bottom: 30px;
+	}
+	/*Shop page*/
+	.woocommerce .roof-primary {
+    padding-left: 15px;
+	}
+	/* Roof Cart Page CSS */
+	.woocommerce table.shop_table th, .woocommerce table.shop_table td {
+		padding: 20px;
+	}
+	.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+		float: none;
+		width: auto;
+	}
+	/* Roof Checkout Page CSS */
+  .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+  	float: none;
+  	width: auto;
+  	padding-bottom: 50px;
+  }
+  .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+  	float: none;
+  	width: auto;
+  }
+  .woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
+  	width: 48.5%;
+  }
+  /* Roof My Account Page CSS */
+  .roof-forms form {
+  	padding-bottom: 30px;
+  }
+  /* Roof Contact Us Page CSS */
+  .roof-contact-wrap .contact-info {
+  	padding: 70px 0 0;
+  }
+  /* Roof 404 Page CSS */
+	.roof-404-error h1 {
+		font-size: 250px;
+		line-height: 200px;
+	}
+	.square-slider {
+    display: inline-block;
+    width: 100%;
+	}
+
+}
+
+@media screen and (max-width:959px) {
+	/* Roof Home V2 Page CSS */
+	.testimonial-style-two .roof-carousel {
+		margin: 0;
+	}
+	.testimonial-style-two .owl-item {
+		padding: 0;
+	}
+	.testimonial-style-two .owl-drag .owl-nav {
+		right: 0;
+	}
+	.testimonial-wrap {
+		min-height: 10px;
+	}
+}
+@media screen and (max-width:881px) {
+	.roof-container {
+		width: 100%;
+	}
+}
+@media screen and (max-width:850px) {
+	/* Roof Normal CSS */
+	.swiper-container .container {
+		padding: 0 40px;
+	}
+	.roof-certifications {
+		padding: 70px 0 41px;
+	}
+	.roof-certifications .section-title-wrap {
+		padding-bottom: 30px;
+	}
+	.certification-item {
+		margin-bottom: 30px;
+	}
+	.quote-wrap {
+		padding: 100px 0;
+	}
+	.quote-wrap h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.roof-news {
+		padding: 70px 0 50px;
+	}
+	.roof-testimonial .container {
+		padding: 0 25px;
+	}
+	.roof-testimonial {
+		padding: 70px 0;
+	}
+	.roof-team-mates {
+		padding: 70px 0 35px;
+	}
+	/*.roof-masonry .masonry-item.one-fourth, .masonry-item, .masonry-item-five .masonry-item {
+		width: 50%;
+	}*/
+	.roof-main-wrap.container {
+		padding: 70px 0 40px;
+	}
+	.roof-main-wrap .roof-works {
+		padding-bottom: 30px;
+	}
+	.roof-main-wrap .filters-nav {
+		margin-bottom: 50px;
+	}
+	.roof-main-wrap .all-project {
+		padding-top: 15px;
+	}
+	.roof-footer {
+		padding: 70px 0 53px;
+	}
+	/* Roof Home V1 Page CSS */
+	#quote-carousel p {
+		font-size: 18px;
+		line-height: 36px;
+	}
+	/* Roof Home V2 Page CSS */
+	.roof-services.services-style-two {
+		padding: 70px 0;
+	}
+	.roof-locations {
+		padding-top: 30px;
+	}
+	.certifications-wrap {
+		padding: 70px 0 20px;
+	}
+	.roof-performances {
+		padding: 70px 0 50px;
+	}
+	.roof-performances .section-title-wrap {
+		padding-bottom: 40px;
+	}
+	.roof-testimonial.testimonial-style-two {
+		padding: 70px 0;
+	}
+	/* Roof Home V3 Page CSS */
+	.roof-services.services-style-three {
+		padding: 70px 0 50px;
+	}
+	.roof-about {
+		padding: 70px 0 35px;
+	}
+	.owl-drag .owl-prev:before {
+		left: -30px;
+	}
+	.owl-drag .owl-next:before {
+		right: -30px;
+	}
+	/* Roof Home V4 Page CSS */
+	.roof-services.services-style-four {
+		padding: 70px 0 30px;
+	}
+	.roof-certifications.certifications-style-three {
+		padding: 70px 0 20px;
+	}
+	.certifications-style-three .certification-item {
+		margin-bottom: 30px;
+	}
+	.about-spacer-two {
+		padding: 70px 0;
+	}
+	.roof-status {
+		padding-bottom: 45px;
+	}
+	.status-list {
+		padding-bottom: 30px;
+	}
+	/* Roof Shop CSS */
+	.woocommerce ul.products{
+		text-align: center;
+	}
+	/* Roof 404 Page CSS */
+	.roof-404-error {
+		width: auto;
+		padding-bottom: 50px;
+	}
+}
+
+@media screen and (max-width:799px) {
+	/* Roof Normal CSS */
+	.container {
+		padding: 0 25px;
+	}
+}
+
+@media screen and (max-width:768px){
+	/* Home Page */
+	.roof-header.roof-style-one {
+    padding: 0;
+	}
+	/* Shop */
+	.woocommerce ul.products[class*=columns-] li.product:nth-child(2n), .woocommerce-page ul.products[class*=columns-] li.product:nth-child(2n) {
+		float: none;
+	}
+	.woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
+		float: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+    margin: 0 3% 50px 0;
+    text-align: center;
+	}
+
+	/* Cart Page */
+	.woocommerce table.shop_table td{
+		border-top: none;
+	}
+	.woocommerce-cart table.woocommerce-cart-form__contents {
+		border: none;
+	}
+	.woocommerce table.woocommerce-cart-form__contents tr, .woocommerce-page table.woocommerce-cart-form__contents tr {
+    padding-top: 40px;
+	}
+	.woocommerce table.woocommerce-cart-form__contents tr:first-child, .woocommerce-page table.woocommerce-cart-form__contents tr:first-child{
+		padding-top: 0;
+	}
+	.woocommerce table.shop_table_responsive tr:nth-child(2n) td, .woocommerce-page table.shop_table_responsive tr:nth-child(2n) td {
+    background-color: transparent;
+	}
+	.woocommerce table.cart td.actions .coupon {
+		float: none;
+	}
+	.woocommerce-cart table.cart td.actions .coupon .input-text {
+		width: 48%;
+	}
+	.woocommerce-cart .cart-collaterals .cart_totals tr td{
+		border-top: none;
+	}
+	.woocommerce-cart .cart_totals .shipping span{
+		display: block;
+	}
+	.woocommerce-page table.cart td.actions .button{
+		margin-bottom: 5px;
+	}
+	/* My Account Page */
+	.woocommerce-account .woocommerce-MyAccount-content, .woocommerce-account .woocommerce-MyAccount-navigation {
+    float: none;
+    width: 100%;
+	}
+	.woocommerce-account .woocommerce .woocommerce-MyAccount-navigation ul{
+		padding: 0;
+	}
+	/* Home v1*/
+	.expert-item.first {
+    padding: 36px 10px 50px 10px;
+	}
+	.roof-primary .roof-certifications .certification-item {
+		padding: 0 4px;
+	}
+	.admin-bar .is-sticky .roof-header-sticky {
+    top: 46px !important;
+	}
+
+}
+
+@media screen and (max-width:767px) {
+	/* Roof Normal CSS */
+	table th, table td {
+		padding: 20px;
+	}
+	blockquote {
+		padding: 70px 30px 20px;
+	}
+	.h1, h1 {
+		font-size: 30px;
+	}
+	.h2, h2 {
+		font-size: 26px;
+	}
+	.h3, h3 {
+		font-size: 20px;
+	}
+	.row {
+		margin: 0;
+	}
+	.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+		padding: 0;
+	}
+	.dropdown-menu {
+		position: static;
+		min-width: 100%;
+		-webkit-box-shadow: none;
+		-ms-box-shadow: none;
+		box-shadow: none;
+	}
+	.dropdown-menu > li {
+		padding: 0 25px;
+	}
+	.roof-header .roof-navigation nav.roof-menu {display: none;}
+	.navbar-nav .open .dropdown-menu {
+		background: #ffffff;
+	}
+	.navbar-nav .open .dropdown-menu > li > a {
+		padding: 11px 0;
+	}
+	.mfp-img-mobile .mfp-image-holder {
+		padding: 15px;
+	}
+	.mfp-zoom-out-cur .mfp-close {
+		top: 30px;
+		right: 30px;
+		width: 16px;
+		height: 16px;
+		background: none;
+	}
+	.roof-parallax {
+		background-attachment: scroll;
+	}
+	.roof-parallax .pull-right {
+    float: right !important;
+    float: none !important;
+    display: inline-block;
+}
+	.owl-drag .owl-prev:before {
+		left: -40px;
+	}
+	.owl-drag .owl-next:before {
+		right: -40px;
+	}
+	.roof-map {
+		height: 250px;
+	}
+	.roof-top-bar {
+		display: none;
+		padding: 25px 0;
+	}
+	.roof-top-bar .pull-left {
+		width: 100%;
+		padding: 0 0 15px;
+	}
+	.roof-top-bar .pull-right {
+		width: 100%;
+	}
+	.roof-header.roof-style-two {
+		padding-bottom: 0;
+	}
+	.roof-header .roof-menu {
+		width: 100%;
+	}
+	.swiper-container {
+		height: 400px;
+	}
+	.swiper-container .container {
+		padding: 0 50px;
+	}
+	.swiper-button-prev, .swiper-button-next {
+		width: 40px;
+		height: 40px;
+	}
+	.swiper-button-prev:before, .swiper-button-next:before {
+		font-size: 16px;
+	}
+	.roof-slide-cpation {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.cpation-wrap {
+		padding: 0;
+		background: none;
+	}
+	.cpation-wrap p {
+		margin-bottom: 5px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.cpation-wrap .roof-btn {
+		min-width: 140px;
+		padding: 11px 24px;
+		margin: 10px 5px 0;
+		font-size: 12px;
+	}
+	.cpation-wrap .cpation-title {
+		padding-bottom: 5px;
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.cpation-wrap .cpation-sub-title {
+		font-size: 16px;
+	}
+	.cpation-wrap .roof-icon {
+		padding-bottom: 10px;
+	}
+	.section-title-wrap {
+		padding-bottom: 20px;
+	}
+	.section-title-wrap br {
+		display: none;
+	}
+	.section-title-wrap p {
+		line-height: 26px;
+	}
+	.section-title-wrap h4 {
+		font-size: 18px;
+	}
+	.section-title {
+		margin-bottom: 4px;
+	}
+	.roof-consult .roof-btn {
+		padding: 18px 25px;
+		font-size: 14px;
+	}
+	.roof-consult .roof-btn .fa {
+		margin-top: -6px;
+		font-size: 20px;
+	}
+	.roof-services {
+		padding: 40px 0 10px;
+		text-align: center;
+	}
+	.service-item {
+		margin-bottom: 25px;
+	}
+	.service-info {
+		padding-top: 15px;
+	}
+	.service-info .read-more {
+		padding-top: 0;
+	}
+	.service-title {
+		margin-bottom: 3px;
+	}
+	.roof-works {
+		padding: 30px 0;
+	}
+	.roof-works .section-title-wrap, .roof-certifications .section-title-wrap {
+		padding-bottom: 20px;
+	}
+	.filters-nav {
+		margin-bottom: 25px;
+	}
+	.filters-nav > li {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.roof-certifications {
+		padding: 25px 12px 15px;
+	}
+	.certification-item {
+		margin-bottom: 15px;
+	}
+	.certification-item .certification-title {
+		margin-bottom: 10px;
+	}
+	.quote-wrap {
+		padding: 50px 0;
+		text-align: center;
+	}
+	.quote-wrap h2 {
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.quote-wrap .quote-title {
+		margin-bottom: 15px;
+	}
+	.quote-wrap .quote-sub-title {
+		margin-bottom: 10px;
+	}
+	.roof-news {
+		padding: 30px 15px 5px;
+		text-align: center;
+	}
+	.news-item {
+		margin-bottom: 25px;
+	}
+	.news-info {
+		padding-top: 20px;
+	}
+	.news-info h5, .news-meta {
+		margin-bottom: 5px;
+	}
+	.news-info .read-more {
+		padding-top: 5px;
+	}
+	.roof-testimonial {
+		padding: 50px 0;
+	}
+	.roof-testimonial .container {
+		padding: 0 40px;
+	}
+	.roof-testimonial .quote-client {
+		padding: 5px 0 20px;
+	}
+	#quote-carousel p {
+		font-size: 16px;
+		line-height: 30px;
+	}
+	#quote-carousel .item:before {
+		margin-bottom: -30px;
+		line-height: 76px;
+	}
+	.carousel-indicators li {
+		margin-bottom: 10px;
+	}
+	.carousel-indicators li.active {
+		margin-bottom: 10px;
+	}
+	.roof-partners {
+		padding: 30px 0;
+	}
+	.mate-list {
+		margin-bottom: 15px;
+	}
+	.mate-info {
+		padding-top: 20px;
+	}
+	.mate-designation {
+		padding-bottom: 15px;
+		margin-bottom: 10px;
+	}
+	.roof-masonry, .roof-masonry.masonry-spacer-two {
+		margin: 0;
+	}
+	.masonry-item, .masonry-spacer-two .masonry-item {
+		padding: 0 0 25px;
+	}
+	.roof-masonry .masonry-item.one-fourth, .masonry-item, .masonry-item-three .masonry-item, .masonry-item-five .masonry-item, .roof-masonry .masonry-item.one-half {
+		width: 50%;
+	}
+	.panel-title a {
+		padding: 20px 30px 20px 0;
+	}
+	.roof-page-title {
+		padding: 30px 0;
+		text-align: center;
+	}
+	.roof-page-title .page-title {
+		font-size: 20px;
+	}
+	.breadcrumb {
+		float: none;
+	}
+	.breadcrumb > li {
+		padding-bottom: 6px;
+	}
+	.roof-main-wrap {
+		padding: 30px 0 10px;
+	}
+	.about-detail .about-wrap {
+		display: block;
+		margin-bottom: 20px;
+	}
+	.about-detail .about-info {
+		padding: 25px;
+	}
+	.info-title {
+		margin-bottom: 15px;
+	}
+	.roof-secondary {
+		padding-top: 25px;
+	}
+	.sidebar-right .roof-secondary {
+		padding: 25px;
+	}
+	.roof-widget {
+		margin-bottom: 25px;
+	}
+	.widget-title, .widget-archives .widget-title {
+		margin-bottom: 15px;
+	}
+	.widget-question-wrap .question-title {
+		margin-bottom: 10px;
+	}
+	.widget-tags a {
+		margin-bottom: 8px;
+	}
+	.roof-main-wrap .roof-works {
+		padding-bottom: 20px;
+	}
+	.roof-main-wrap .filters-nav {
+		margin-bottom: 25px;
+	}
+	.roof-main-wrap .all-project {
+		padding-top: 0;
+	}
+	.roof-footer {
+		padding: 30px 0 0;
+	}
+	.roof-footer [class*="col-"] {
+		min-height: 10px;
+		padding-bottom: 25px;
+	}
+	.roof-footer p {
+		line-height: 24px;
+	}
+	.roof-footer h4 {
+		margin-bottom: 10px;
+	}
+	.roof-footer ul li:last-child {
+		padding-bottom: 0;
+	}
+	.roof-footer .roof-picture {
+		margin-bottom: 10px;
+	}
+	.roof-footer .roof-social {
+		padding-top: 5px;
+		display: block;
+	}
+	.roof-footer .roof-social h6 {
+		margin-bottom: 10px;
+	}
+	.roof-footer .contact-details {
+		display: block;
+	}
+	.roof-footer .contact-details p:last-child {
+		margin-bottom: 0;
+	}
+	.roof-copyright .cprt-right {
+    text-align: center;
+	}
+	.post-item .post-author {
+		line-height: 1.42857143;
+	}
+	/* Roof Home V1 Page CSS */
+	.roof-expert [class*="col-"]:last-child .expert-item {
+		border-bottom: none;
+	}
+	.expert-item {
+		min-height: 10px;
+		padding: 30px 0;
+		border-bottom: 1px solid #eaeaea;
+		border-right: none;
+	}
+	.expert-item p {
+		opacity: 1;
+	}
+	.expert-item .roof-icon {
+		padding-bottom: 10px;
+	}
+	.expert-item .view-more {
+		padding-top: 5px;
+		opacity: 1;
+	}
+	.expert-item.first {
+		padding: 30px 0;
+		text-align: center;
+	}
+	.expert-item.first .expert-title {
+		margin-bottom: 2px;
+	}
+	.expert-item.first .view-more {
+		padding-top: 5px;
+	}
+	.roof-links {
+		padding: 30px 0 5px;
+	}
+	.link-item {
+		margin-bottom: 25px;
+	}
+	/* Roof Home V2 Page CSS */
+	.swiper-container.swiper-style-two {
+		height: 500px;
+	}
+	.roof-services.services-style-two {
+		padding: 30px 12px 35px;
+	}
+	.services-style-two .service-info {
+		padding: 20px 25px 15px;
+	}
+	.services-style-two .read-more {
+		padding: 20px 0;
+	}
+	.roof-locations {
+		padding-top: 5px;
+	}
+	.roof-locations .roof-icon {
+		display: none;
+	}
+	.location-info h4 {
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.location-info .location-title {
+		margin-bottom: 5px;
+	}
+	.location-info .roof-btn {
+		margin-top: 10px;
+	}
+	.certifications-wrap {
+		padding: 30px 0 15px;
+	}
+	.certifications-style-two .section-title {
+		margin-bottom: 5px;
+	}
+	.certifications-style-two .section-title-wrap p {
+		font-size: 15px;
+	}
+	.certifications-style-two .certification-item {
+		margin-bottom: 5px;
+	}
+	.certifications-style-two .certification-item .roof-icon {
+		padding-bottom: 5px;
+	}
+	.certifications-style-two .certification-item .certification-title {
+		margin-bottom: 5px;
+	}
+	.roof-performances {
+		padding: 30px 0 10px;
+	}
+	.roof-performances .section-title-wrap {
+		padding-bottom: 20px;
+	}
+	.roof-performances .section-title {
+		margin-bottom: 4px;
+	}
+	.progressbar-item {
+		border-right: none;
+	}
+	.progressbar-title {
+		padding-top: 10px;
+	}
+	.roof-testimonial.testimonial-style-two {
+		padding: 30px 0;
+	}
+	.roof-testimonial.testimonial-style-two .container {
+		padding: 0 25px;
+	}
+	.testimonial-style-two .section-title-wrap {
+		padding: 0 0 20px;
+	}
+	.testimonial-wrap {
+		padding: 20px 25px 10px;
+	}
+	.testimonial-style-two .quote-client {
+		padding-top: 50px;
+	}
+	.testimonial-style-two .owl-drag .owl-nav {
+		position: static;
+		text-align: left;
+	}
+	.testimonial-style-two .owl-drag .owl-prev, .testimonial-style-two .owl-drag .owl-next {
+		text-align: center;
+	}
+	/* Roof Home V3 Page CSS */
+	.swiper-container.swiper-style-three {
+		height: 400px;
+	}
+	.swiper-style-three .cpation-wrap p {
+		font-size: 14px;
+	}
+	.swiper-style-three .cpation-wrap .cpation-title, .swiper-style-three .roof-slide-cpation.center .cpation-wrap .cpation-title {
+		padding-bottom: 5px;
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.swiper-style-three .cpation-wrap .cpation-sub-title {
+		font-size: 16px;
+	}
+	.roof-services.services-style-three {
+		padding: 30px 0 10px;
+	}
+	.services-style-three .section-title-wrap, .roof-team-mates .section-title-wrap {
+		padding-bottom: 20px;
+	}
+	.roof-about {
+		padding: 30px 0 10px;
+	}
+	.about-info {
+		padding-top: 20px;
+	}
+	.about-wrap {
+		padding-bottom: 20px;
+	}
+	.about-info h5 {
+		margin-bottom: 5px;
+	}
+	.about-info .roof-picture {
+		padding-top: 5px;
+	}
+	.choose-item {
+		padding-bottom: 10px;
+	}
+	.choose-item .choose-info {
+		padding-left: 20px;
+	}
+	.roof-testimonial.testimonial-style-three {
+		padding-bottom: 30px;
+	}
+	.testimonial-style-three .section-title-wrap {
+		padding-bottom: 10px;
+	}
+	.testimonial-style-three .roof-carousel p {
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.roof-team-mates {
+		padding: 30px 0 5px;
+	}
+	.roof-partners.partners-style-two {
+		padding: 30px 0;
+	}
+	.roof-emergency .container {
+		padding: 40px 25px;
+		text-align: center;
+	}
+	.roof-emergency .roof-picture {
+		display: none;
+	}
+	.emergency-number .pull-left {
+		width: 100%;
+		padding-bottom: 15px;
+	}
+	.emergency-number .pull-right {
+		width: 100%;
+	}
+	/* Roof Home V4 Page CSS */
+	.roof-services.services-style-four {
+		padding: 30px 0 10px;
+	}
+	.roof-services .services-style-five {
+		padding-top: 30px;
+		margin-top: 0;
+	}
+	.services-style-five .service-item {
+		margin-bottom: 15px;
+	}
+	.quote-spacer-two .quote-wrap {
+		padding: 50px 0;
+	}
+	.roof-certifications.certifications-style-three {
+		padding: 30px 0 15px;
+		text-align: center;
+	}
+	.roof-certifications.certifications-style-three .section-title-wrap {
+		padding-bottom: 20px;
+	}
+	.certifications-style-three .certification-item {
+		min-height: 10px;
+		margin-bottom: 10px;
+	}
+	.certifications-style-three .certification-item .roof-icon {
+		padding-bottom: 13px;
+	}
+	.certifications-style-three .certification-item .certification-title {
+		margin-bottom: 8px;
+	}
+	.all-project {
+		padding: 25px 0 5px;
+	}
+	.roof-status {
+		padding: 50px 0 30px;
+		text-align: center;
+	}
+	.status-list {
+		padding-bottom: 15px;
+		text-align: center;
+	}
+	.status-list .roof-icon {
+		float: none;
+		padding-top: 0;
+	}
+	.status-info {
+		padding: 10px 0 0;
+	}
+	.status-info h2 {
+		font-size: 30px;
+	}
+	.status-info h5 {
+		font-size: 15px;
+	}
+	.about-spacer-two {
+		padding: 30px 0;
+	}
+	.roof-questions {
+		padding-top: 20px;
+	}
+	.request-quote {
+		padding: 25px;
+		margin: 0 15px 20px;
+	}
+	.request-quote .section-title-wrap {
+		padding-bottom: 20px;
+	}
+	.request-quote div.wpcf7 {
+    display: block;
+	}
+	/* Roof About Page CSS */
+	.roof-mission {
+		padding: 5px 0 0;
+		margin-bottom: 20px;
+	}
+	.roof-mission .info-title {
+		margin-bottom: 15px;
+	}
+	.roof-main-wrap.container {
+    padding: 70px 15px 40px;
+	}
+	.mission-item {
+		margin-bottom: 20px;
+	}
+	.mission-info {
+		padding-top: 15px;
+	}
+	.mission-info p {
+		font-size: 14px;
+	}
+	.mission-info .mission-title {
+		margin-bottom: 5px;
+	}
+	.mission-info .read-more {
+		padding-top: 0;
+	}
+	/* Roof Certifications Page CSS */
+	.roof-main-wrap .roof-primary .roof-certifications .detail-title:after {
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	.certification-wrap {
+		padding-top: 10px;
+	}
+	.roof-primary .roof-certifications .certification-item {
+		min-height: 10px;
+		margin-bottom: 10px;
+	}
+	/* Roof History Page CSS */
+	.about-detail.about-style-two .about-wrap {
+		margin-bottom: 20px;
+	}
+	.about-detail.about-style-two .about-wrap > .roof-picture {
+		width: 100%;
+	}
+	.about-detail.about-style-two .about-wrap > .roof-picture > img {
+		width: auto;
+	}
+	.about-detail.about-style-two .about-info {
+		width: 100%;
+		padding: 20px 25px;
+	}
+	.history-item {
+		padding: 10px 0 5px;
+	}
+	.history-title {
+		margin-bottom: 5px;
+	}
+	.history-title .history-year {
+		font-size: 28px;
+	}
+	/* Roof Core Values Page CSS */
+	.core-wrap {
+		padding-top: 10px;
+	}
+	.core-item {
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.core-item .roof-icon {
+		float: none;
+	}
+	.core-info {
+		clear: both;
+		padding: 10px 0 0;
+	}
+	.core-info .core-title {
+		margin-bottom: 3px;
+	}
+	/* Roof Partners Page CSS */
+	.partners-wrap {
+		padding-top: 5px;
+		text-align: center;
+	}
+	.partners-wrap .detail-title:after {
+		right: 0;
+		margin: 0 auto;
+	}
+	.partner-item {
+		padding: 10px 0 25px;
+		margin: 0 0 20px;
+	}
+	.partner-item .roof-picture {
+		float: none;
+		display: inline-block;
+	}
+	.partner-info {
+		padding: 15px 0 0;
+	}
+	.partner-info .partner-address {
+		margin-bottom: 5px;
+	}
+	/* Roof FAQ Page CSS */
+	.faq-form {
+		padding-top: 25px;
+	}
+	.faq-form .info-title {
+		margin-bottom: 20px;
+	}
+	.faq-form input[type="submit"] {
+		margin-top: 0;
+	}
+	/* Roof Team Page CSS */
+	.team-wrap .mate-list {
+		margin-bottom: 25px;
+	}
+	.team-wrap .mate-designation {
+		margin-bottom: 10px;
+	}
+	.team-wrap .mate-info {
+		padding-top: 15px;
+	}
+	/* Roof Careers Page CSS */
+	.roof-benefits {
+		padding: 10px 0;
+	}
+	.roof-benefits .roof-picture {
+		padding-bottom: 15px;
+	}
+	.benefit-item {
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.benefit-info {
+		padding-left: 20px;
+	}
+	.benefit-info h4 {
+		font-size: 18px;
+	}
+	.benefit-info .benefit-title {
+		margin-bottom: 5px;
+	}
+	.roof-open-positions {
+		padding-top: 20px;
+	}
+	/* Roof Pricing Page CSS */
+	.plan-item {
+		margin-top: 25px;
+	}
+	.plan-type {
+		padding: 25px 20px;
+	}
+	.plan-info {
+		padding: 25px 25px 30px;
+	}
+	.plan-info ul li {
+		margin-bottom: 15px;
+	}
+	.plan-info .roof-btn {
+		margin-top: 5px;
+	}
+	/* Roof Services Page CSS */
+	.roof-primary .service-item {
+		margin-bottom: 25px;
+	}
+	.roof-primary .service-info {
+		padding-top: 15px;
+	}
+	.roof-primary .service-info .service-title {
+		margin-bottom: 0;
+		font-size: 15px;
+	}
+	/* Roof Services Page CSS */
+	.roof-renovation {
+		padding: 5px 0;
+	}
+	.roof-renovation .info-title {
+		margin-bottom: 5px;
+	}
+	.roof-brochures {
+		padding-top: 20px;
+	}
+	.brochure-wrap {
+		margin-bottom: 25px;
+	}
+	.brochure-info {
+		padding: 25px;
+	}
+	/* Roof Project Fullwith Page CSS */
+	.roof-masonry.masonry-fullwidth {
+		margin: 0 25px;
+	}
+
+	/* Roof Projects Single Page CSS */
+	.work-detail .roof-carousel {
+		margin-bottom: 25px;
+	}
+	.work-detail .owl-drag .owl-dots {
+		bottom: 10px;
+	}
+	.work-detail .roof-questions {
+		padding-bottom: 20px;
+	}
+	.work-detail .square-bullets {
+		padding: 0 0 10px 0;
+	}
+	.work-detail-wrap {
+		padding: 25px 25px 10px;
+	}
+	.work-description {
+		padding-bottom: 25px;
+	}
+	.work-info-item {
+		padding-bottom: 15px;
+	}
+	.roof-questions .view-more {
+		padding-top: 20px;
+	}
+	/* Roof Blog Page CSS */
+	.blog-item {
+		padding: 0 0 25px 0;
+		margin-bottom: 25px;
+	}
+	.blog-links-wrap {
+		display: inline-block;
+		vertical-align: middle;
+		width: auto;
+		padding-bottom: 10px;
+		position: relative;
+	}
+	.blog-link {
+		float: left;
+		min-width: 100px;
+		border-bottom: 1px solid #ececec;
+		border-right: none;
+		position: relative;
+	}
+	.blog-link:last-child {
+		border-right: 1px solid #ececec;
+	}
+	.share-links a {
+		padding: 15px 10px;
+	}
+	.share-links.style-two {
+		top: 1px;
+		bottom: 0;
+		left: -1px;
+		right: -1px;
+		width: auto;
+	}
+	.blog-link.share.hover .share-links.style-two {
+		top: 100%;
+		bottom: 1px;
+		left: -1px;
+	}
+	.share-links.style-two a {
+		float: none;
+		min-width: 10px;
+		display: block;
+		border-top: none;
+		border-bottom: 1px solid #ececec;
+		border-right: 1px solid #ececec;
+	}
+	.link-inner {
+		min-height: 87px;
+	}
+	.blog-info {
+		padding-top: 20px;
+	}
+	.blog-info h3 {
+		margin-bottom: 8px;
+		font-size: 20px;
+	}
+	.blog-info h6 {
+		margin-bottom: 8px;
+	}
+	.blog-info .roof-btn {
+		margin-top: 5px;
+	}
+	/* Roof Blog Single Page CSS */
+	.blog-detail-wrap {
+		padding-left: 0;
+	}
+	.blog-detail-wrap p {
+		margin-bottom: 10px;
+		font-size: 14px;
+	}
+	.blog-detail-wrap blockquote {
+		margin: 20px 0;
+	}
+	.roof-blog-detail .blog-picture {
+		padding-bottom: 20px;
+	}
+	.roof-blog-detail h1, .roof-blog-detail h2, .roof-blog-detail h3, .roof-blog-detail h4, .roof-blog-detail h5, .roof-blog-detail h6 {
+		margin-bottom: 10px;
+	}
+	.roof-blog-meta {
+		padding: 10px 0 20px;
+	}
+	.roof-more-posts {
+		text-align: center;
+	}
+	.roof-more-posts .pull-left {
+		width: 100%;
+		padding-bottom: 15px;
+	}
+	.roof-more-posts .pull-right {
+		width: 100%;
+	}
+	.roof-author-info {
+		padding: 25px;
+		margin-top: 25px;
+	}
+	.author-content .author-name {
+		margin-bottom: 5px;
+	}
+	.comments-section {
+		padding: 25px 0 0;
+	}
+	.roof-comments-area .comments-title {
+		margin-bottom: 15px;
+	}
+	.roof-comments-area .comment-item {
+		padding-bottom: 15px;
+		margin-bottom: 20px;
+	}
+	.roof-comments-area .comment-main-area {
+		padding-left: 25px;
+	}
+	.roof-comments-area .comments li .children li {
+		padding-left: 25px;
+	}
+	.roof-blog-detail .comment-reply-title {
+		margin-bottom: 15px;
+		padding: 0 10px;
+	}
+	.roof-comment-form {
+		padding-bottom: 5px;
+	}
+	.roof-form-textarea textarea {
+		height: 140px;
+	}
+	.form-submit {
+		padding-top: 0;
+	}
+	.comment-form .form-submit{
+		padding: 0 10px;
+	} 
+	.roof-comment-form-section {
+    padding: 0px 15px;
+	}
+	.roof-comment-form input[type="submit"] {
+		min-width: 100%;
+	}
+	/* Roof Entry Content Page CSS */
+  .entry-content dd {
+    margin-bottom: 10px;
+  }
+  .wp-caption {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .entry-content .comment-list article, .entry-content .comment-list .pingback, .entry-content .comment-list .trackback {
+    padding: 20px 0;
+  }
+  .entry-content .comment-content ul, .entry-content .comment-content ol {
+    margin: 0 0 10px 0;
+  }
+  .entry-content .comment-metadata {
+    margin-bottom: 5px;
+  }
+  .entry-content .comment-list .comment-reply-link {
+    margin-top: 0;
+  }
+  .entry-content .comment-list .children {
+    padding-left: 10px;
+  }
+  .roof-unit-fix .entry-content .comment-form {
+    padding-top: 0;
+  }
+  .roof-unit-fix .entry-content .comment-list article, .roof-unit-fix .entry-content .comment-list .pingback, .roof-unit-fix .entry-content .comment-list .trackback {
+    padding: 15px 0 20px;
+  }
+	/* Roof Shop CSS */
+	.woocommerce ul.products {
+		padding-top: 25px;
+		text-align: center;
+	}
+	.woocommerce.woo-col-3 ul.products li.product, .woocommerce-page ul.products li.product {
+		width: 280px;
+	}
+	.woocommerce ul.products li.product a img{
+		max-width: 100%;
+		display: inline-block;
+	}
+	.woocommerce ul.cart_list li, .woocommerce ul.product_list_widget li {
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+	}
+	/* Roof Product Details Page CSS */
+  .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images, .woocommerce #review_form #respond .comment-form-author, .woocommerce #review_form #respond .comment-form-email {
+  	float: none;
+  	width: auto;
+  }
+  .woocommerce div.product div.images div.thumbnails {
+  	padding-top: 15px;
+  }
+  .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+  	float: none;
+  	width: auto;
+  	padding: 20px 0 0;
+  }
+  .woocommerce-tabs {
+  	padding-top: 25px;
+  }
+  .woocommerce-Tabs-panel h2 {
+  	margin-bottom: 15px;
+  }
+  .woocommerce div.product .woocommerce-tabs ul.tabs {
+  	margin-bottom: 20px;
+  }
+  .woocommerce #reviews #comments ol.commentlist li {
+  	margin-bottom: 15px;
+  }
+  .woocommerce #reviews #comments ol.commentlist {
+  	padding-bottom: 0;
+  }
+  .woocommerce #reviews #comments ol.commentlist li .comment-text .description {
+  	padding-top: 0;
+  }
+  .woocommerce #review_form #respond input[type="text"], .woocommerce #review_form #respond input[type="email"], .woocommerce #review_form #respond textarea {
+  	margin-bottom: 20px;
+  }
+  .woocommerce #review_form #respond {
+  	margin-bottom: 15px;
+  }
+  .woocommerce #review_form #respond p.comment-notes {
+  	margin-bottom: 15px;
+  }
+  .woocommerce #review_form #respond p.form-submit input[type="submit"] {
+  	min-width: 100%;
+  	margin: 0 0 25px;
+  }
+  .woocommerce .related.products {
+  	padding-top: 10px;
+  }
+  .woocommerce .related.products ul.products {
+  	padding-top: 15px;
+  }
+  .woocommerce .related.products ul.products li.product, .woocommerce-page .related.products ul.products li.product {
+  	margin-bottom: 20px;
+  }
+  /* Roof Cart Page CSS */
+  .woocommerce table.shop_table.shop_table_responsive.cart {
+  	white-space: nowrap;
+  }
+  .woocommerce table.shop_table td.product-thumbnail {
+  	min-width: 100px;
+  }
+	.woocommerce .cart_totals table.shop_table tr.shipping td {
+		padding: 15px 25px 25px;
+	}
+  .woocommerce table.shop_table .quantity .qty {
+  	height: 45px;
+  	font-size: 12px;
+  }
+  .woocommerce .cart .actions input.update-cart[type="submit"] {
+  	float: left;
+  	clear: both;
+  	margin-top: 15px;
+  }
+  .woocommerce table.shop_table {
+  	margin-bottom: 25px;
+  }
+  .woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals {
+  	margin-bottom: 15px;
+  }
+  .cart_totals h2 {
+  	margin-bottom: 20px;
+  }
+  .woocommerce #content table.cart td.actions .input-text, .woocommerce table.cart td.actions .input-text, .woocommerce-page #content table.cart td.actions .input-text, .woocommerce-page table.cart td.actions .input-text {
+  	width: 170px;
+  }
+  .woocommerce-page .roof-main-wrap.container {
+    padding: 70px 15px 40px;
+	}
+	.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals{
+		margin-top: 50px;
+	}
+  /* Roof Checkout Page CSS */
+  .woocommerce-error, .woocommerce-info, .woocommerce-message {
+  	margin-bottom: 25px !important;
+  }
+  .woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+  	margin: 20px 0;
+  }
+  .woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
+  	float: none;
+  	width: auto;
+  }
+  .woocommerce form .form-row input.input-text, .woocommerce form .form-row select, .woocommerce form .form-row textarea {
+  	margin-bottom: 15px;
+  }
+  .woocommerce-checkout {
+  	padding-top: 0;
+  }
+  .woocommerce-checkout h3 {
+  	margin-bottom: 15px;
+  }
+  .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+  	padding: 0 0 10px;
+  }
+  .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+  	padding: 0 0 15px;
+  }
+  .woocommerce form .diffrent-address, .woocommerce div.create-account {
+  	padding: 0;
+  }
+  .woocommerce form .shipping-diffrent-address {
+  	padding-top: 0;
+  }
+  .woocommerce .woocommerce-checkout-review-order {
+  	padding: 30px;
+  }
+  .woocommerce .woocommerce-checkout-review-order h3 {
+  	margin-bottom: 10px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table th, .woocommerce .woocommerce-checkout-review-order table.shop_table td {
+  	padding: 15px 0;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table {
+  	margin-bottom: 10px;
+  }
+  .woocommerce #add_payment_method #payment ul.payment_methods li, .woocommerce .woocommerce-cart #payment ul.payment_methods li, .woocommerce .woocommerce-checkout #payment ul.payment_methods li {
+  	padding-bottom: 0;
+  }
+  .woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+  	margin-top: 20px;
+  }
+  /* Roof My Account Page CSS */
+  .roof-forms .row {
+  	margin: 0;
+  }
+  .roof-forms [class*="col-"] {
+  	padding: 0;
+  }
+  .u-column1.col-1.woocommerce-Address {
+    padding: 15px;
+	}
+	.u-column2.col-2.woocommerce-Address {
+    padding: 15px;
+	}
+  .roof-forms h3 {
+  	margin-bottom: 10px;
+  }
+  .roof-forms form {
+  	padding-bottom: 15px;
+  }
+  .roof-forms input[type="submit"] {
+  	margin: 0 0 10px;
+  }
+  /* Roof Estimation Calculator Page CSS */
+  .roof-estimation-wrap {
+  	padding-bottom: 15px;
+  }
+  .roof-estimation-wrap .section-title-wrap h2 {
+  	margin-bottom: 5px;
+  	font-size: 18px;
+  }
+  .estimation-item {
+  	padding-bottom: 10px;
+  }
+  .estimation-item.service {
+  	padding-bottom: 25px;
+  }
+  .estimation-item.service p {
+  	padding-left: 0;
+  }
+  .estimation-item.service .checkbox {
+  	float: none;
+  	min-width: 100%;
+  	margin: 0 0 -1px 0;
+  }
+  /* Roof Contact Us Page CSS */
+  .roof-contact-wrap h3.detail-title {
+  	margin-bottom: 20px;
+  	font-size: 20px;
+  }
+  .roof-contact-wrap form {
+  	padding-top: 15px;
+  }
+  .roof-contact-wrap textarea {
+  	height: 140px;
+  }
+  .roof-contact-wrap .contact-info {
+  	padding: 25px 0 20px;
+  }
+  .roof-contact-wrap .contact-info ul li {
+  	margin-bottom: 13px;
+  }
+  .roof-contact-wrap .roof-map {
+  	margin-bottom: 20px;
+  }
+  /* Roof 404 Page CSS */
+	.roof-404-error {
+		padding: 15px 0 50px;
+	}
+	.roof-404-error p {
+		font-size: 15px;
+	}
+	.roof-404-error h1 {
+		font-size: 150px;
+		line-height: 120px;
+	}
+	.roof-404-error h2 {
+		font-size: 26px;
+	}
+	.roof-404-error .error-title {
+		margin-bottom: 15px;
+	}
+	.roof-404-error .error-sub-title {
+		margin-bottom: 5px;
+	}
+	.roof-404-error form {
+		padding-top: 15px;
+	}
+}
+@media screen and (max-width:600px) {
+	/* Header */
+	.admin-bar .is-sticky .roof-header-sticky {
+    top: 0 !important;
+	}
+	.admin-bar {
+		position: static;
+	}
+	.roof-header {
+		padding: 0;
+	}
+	/* Projects full-width */
+	.masonry-fullwidth .masonry-item, .roof-masonry.bpw-col-3 .masonry-item, .roof-masonry.bpw-col-4 .masonry-item, .roof-masonry.bpw-col-5 .masonry-item {
+    width: 450px;
+    margin: 0 auto;
+    right: 0;
+	}
+	.roof-masonry.masonry-fullwidth {
+		margin: 0;
+	}
+}
+@media screen and (max-width:599px) {
+	/* Roof Normal CSS */
+	blockquote {
+		padding: 70px 25px 20px;
+	}
+	.h1, h1 {
+		font-size: 26px;
+	}
+	.h2, h2 {
+		font-size: 22px;
+	}
+	.h3, h3 {
+		font-size: 18px;
+	}
+	.cpation-wrap .cpation-title {
+		font-size: 22px;
+	}
+	.cpation-wrap .cpation-sub-title {
+		padding-bottom: 0;
+	}
+	.cpation-wrap .roof-icon {
+		padding-bottom: 5px;
+	}
+	.quote-wrap h2 {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	.roof-pagination a.prev, .roof-pagination a.next, .woocommerce nav.woocommerce-pagination ul li a.prev, .woocommerce nav.woocommerce-pagination ul li a.next {
+		padding: 6px 15px;
+	}
+	/* Roof Home V3 Page CSS */
+	.swiper-style-three .cpation-wrap .cpation-title, .swiper-style-three .roof-slide-cpation.center .cpation-wrap .cpation-title {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.swiper-style-three .cpation-wrap .cpation-sub-title {
+		padding-bottom: 0;
+		font-size: 15px;
+	}
+	.section-title-wrap h2 {
+		font-size: 22px;
+	}
+	.about-info p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.choose-item .choose-info h5 {
+		margin-bottom: 5px;
+	}
+	/* Roof History Page CSS */
+	.history-title .history-year {
+		font-size: 26px;
+	}
+	.about-detail.about-style-two .about-info h3 {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	/* Roof Blog Page CSS */
+	.blog-info h3 {
+		margin-bottom: 5px;
+		font-size: 18px;
+	}
+	/* Roof Blog Single Page CSS */
+	.roof-author-info {
+		text-align: center;
+	}
+	.author-avatar {
+		float: none;
+	}
+	.author-content {
+		padding: 15px 0 0;
+	}
+	.roof-author-info .roof-social a {
+		margin: 0 7px;
+	}
+	.roof-comments-area .comment-main-area {
+		clear: both;
+		padding: 15px 0 0;
+	}
+	.roof-comments-area .comments-title {
+		font-size: 18px;
+	}
+	.roof-comments-area .comments li .children li {
+		padding-left: 15px;
+	}
+	.roof-comments-meta h4, .roof-blog-detail .comment-reply-title {
+		font-size: 16px;
+	}
+	.blog-detail-wrap blockquote p {
+		font-size: 15px;
+	}
+	/* Roof Shop CSS */
+	.woocommerce .woocommerce-result-count, .woocommerce-page .woocommerce-result-count {
+		float: none;
+		margin: 0 0 15px;
+	}
+	.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
+		float: none;
+	}
+	.woocommerce .woocommerce-ordering select {
+		width: 100%;
+	}
+	/* Roof Cart Page CSS */
+	.cart-collaterals table.shop_table th, .cart-collaterals table.shop_table td {
+		float: left;
+		width: 100%;
+	}
+	.woocommerce table.shop_table tbody th, .woocommerce table.shop_table tfoot td, .woocommerce table.shop_table tfoot th {
+		border-top: none;
+	}
+	.woocommerce table.shop_table tr.order-total td {
+		border-bottom: none;
+	}
+	.woocommerce table.shop_table tr.cart-subtotal th {
+		border-bottom: 1px solid #ececec;
+	}
+	/* Roof Checkout Page CSS */
+  .woocommerce form.checkout_coupon input.input-text {
+  	float: none;
+  	width: 100%;
+  }
+  .woocommerce form.checkout_coupon input.button {
+  	float: none;
+  	width: 100%;
+  	margin-left: 0;
+  }
+  .payment_method_cod .pull-right {
+  	width: 100%;
+  	padding-top: 5px;
+  }
+  .woocommerce .woocommerce-checkout-review-order {
+  	padding: 25px;
+  }
+  /* Roof 404 Page CSS */
+  .roof-404-error form {
+		display: block;
+		overflow: hidden;
+		clear: both;
+		width: auto;
+	}
+	.roof-404-error form input[type="text"] {
+		width: 70%;
+	}
+	.roof-404-error form input[type="submit"] {
+		min-width: 30%;
+	}
+}
+@media screen and (max-width:508px) {
+	.admin-bar .roof-header.roof-style-two {
+    top: 32px !important;
+    position: relative;
+	}
+	/* Projects Grid */
+	.roof-masonry .masonry-item.one-fourth, .masonry-item, .masonry-item-three .masonry-item, .masonry-item-five .masonry-item, .roof-masonry .masonry-item.one-half {
+		width: 370px;
+		margin:0 auto;
+		right: 0;
+	}
+
+	/* Shop Page */
+	.woocommerce.woo-col-3 ul.products li.product, .woocommerce-page ul.products li.product,
+	.woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
+    width: 280px;
+    margin: 0 0 20px 0px;
+	}
+
+	.woocommerce .roof-primary {
+    padding-left: 0;
+	}
+	.woocommerce.woo-col-3 ul.products li.product, .woocommerce-page ul.products li.product{
+		width: 280px;
+	}
+	.woocommerce ul.products li.product:nth-child(2n), .woocommerce-page ul.products li.product:nth-child(2n){
+		float: none;
+	}
+	.woocommerce ul.products li.product:nth-child(2n+1), .woocommerce-page ul.products li.product:nth-child(2n+1),
+	.woocommerce ul.products li.product:nth-child(2n), .woocommerce-page ul.products li.product:nth-child(2n) {
+		margin-right: 0;
+	}
+	.woocommerce ul.products {
+    padding-top: 60px;
+	}
+	/* Cart Page */
+	.woocommerce .order_details li {
+    padding: 10px;
+    border-right: 1px dashed #c3c3c3;
+    margin: 3px;
+	}
+	.woocommerce .order_details{
+		border: none;
+	}
+
+
+}
+@media screen and (max-width:479px) {
+	/* Roof Entry Content Page CSS */
+  .entry-content .comment-list .children {
+    padding-left: 0;
+  }
+  .roof-unit-fix .entry-content .comment-list .children > li {
+    padding-left: 5px;
+  }
+	/* Roof Product Details Page CSS */
+	.woocommerce #reviews #comments ol.commentlist li img.avatar {
+		float: none;
+	}
+	.woocommerce #reviews #comments ol.commentlist li .comment-text {
+		padding: 15px 0 0;
+	}
+	/* Roof Checkout Page CSS */
+  .woocommerce form .form-row label.inline {
+  	display: block;
+  	margin: 15px 0 0;
+  }
+  /* Roof My Account Page CSS */
+  .roof-forms .pull-left {
+  	width: 100%;
+  	padding-bottom: 10px;
+  }
+  .roof-forms .pull-right {
+  	width: 100%;
+  }
+  .roof-forms input[type="submit"] {
+  	min-width: 100%;
+  	padding: 15px 24px;
+  }
+  .roof-forms .lost-password {
+  	margin-top: 0;
+  }
+  /* Roof 404 Page CSS */
+	.roof-404-error h1 {
+		margin-bottom: 10px;
+		font-size: 110px;
+		line-height: 90px;
+	}
+	.roof-404-error h2 {
+		font-size: 20px;
+	}
+	.roof-404-error form input[type="text"] {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.roof-404-error form input[type="submit"] {
+		min-width: 100%;
+	}
+}
+@media screen and (max-width:414px) {
+	/* Shop Page */
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	    width: 75%;
+	}
+	/* Cart Page */
+	.woocommerce-cart table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .input-text{
+		margin: 0;
+	}
+	/* About page */
+	.about-info {
+    padding: 8px 18px 10px;
+	}
+	.about-one .about-info {
+    padding: 30px 25px;
+	}
+	/* Projects full-width */
+	.masonry-fullwidth .masonry-item, .roof-masonry.bpw-col-3 .masonry-item, .roof-masonry.bpw-col-4 .masonry-item, .roof-masonry.bpw-col-5 .masonry-item {
+    width: 100%;
+	}
+
+}
+@media screen and (max-width:375px) {
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	    width: 100%;
+	}
+	.woocommerce-page table.cart td.actions .coupon .button, .woocommerce-page table.cart td.actions .coupon input,
+	.woocommerce-cart table.cart td.actions .coupon .input-text{
+		width: 100%;
+	}
+	.woocommerce-page table.cart td.actions .coupon .button, .woocommerce-page table.cart td.actions .coupon input {
+		margin-top: 12px;
+		margin-bottom: 5px;
+	}
+	/* Services */
+	.service-item {
+    padding: 0 12px;
+	}
+	/* Projects Grid */
+	.roof-masonry .masonry-item.one-fourth, .masonry-item, .masonry-item-three .masonry-item, .masonry-item-five .masonry-item, .roof-masonry .masonry-item.one-half {
+		width: 100%;
+	}
+}
+@media screen and (max-width:359px) {
+	/* Roof Normal CSS */
+	.location-info h4 {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	/* Roof Home V3 Page CSS */
+	.emergency-wrap h3, .emergency-number h3 {
+		font-size: 16px;
+	}
+	/* Roof Estimation Calculator Page CSS */
+	.square-slider .slider-horizontal {
+		width: 65%;
+	}
+	.square-slider input[type="text"].range-slider {
+		width: 65%;
+	}
+	.square-slider .square-value {
+		width: 26%;
+	}
+	/* Shop Page */
+	.woocommerce.woo-col-3 ul.products li.product, .woocommerce-page ul.products li.product {
+    width: 100%;
+	}
+
+}
